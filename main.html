@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Vanilla JS</title>
+  </head>
+  <style>
+    h2 {
+      display: inline-block;
+      margin: 30px 0;
+    }
+  </style>
+  <body>
+    <h1>Type Anything</h1>
+    <input id="input-field" type="text" />
+    <button id="input-submit">Submit</button>
+    <br />
+    <h2>Your Text :</h2>
+    <span id="input-text"></span>
+    <br />
+    <button id="input-clear">Clear</button>
+  </body>
+
+  <script>
+    let temp;
+    document
+      .getElementById("input-submit")
+      .addEventListener("click", function () {
+        temp = document.getElementById("input-field").value;
+        // console.log(temp);
+        document.getElementById("input-text").innerHTML = temp;
+        document.getElementById("input-field").value = "";
+      });
+    document
+      .getElementById("input-clear")
+      .addEventListener("click", function () {
+        document.getElementById("input-text").innerHTML = "";
+        document.getElementById("input-field").value = "";
+      });
+  </script>
+</html>

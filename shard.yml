@@ -1,0 +1,21 @@
+name: parvati
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  parvati:
+    main: src/parvati.cr
+
+crystal: 1.2.2
+
+license: MIT
+
+dependencies:
+  water:
+    github: shootingfly/water
+  halite:
+    github: icyleaf/halite
+  kemal:
+    github: kemalcr/kemal
