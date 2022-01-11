@@ -1,6 +1,6 @@
-# parvati
+# ASH-CRYSTALS
 
-TODO: Write a description here
+bECAUSE from far it looks like ash but if you search closely , you might find some crystals
 
 ## Installation
 
