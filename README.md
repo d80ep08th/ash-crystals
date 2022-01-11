@@ -4,7 +4,11 @@ bECAUSE from far it looks like ash but if you search closely , you might find so
 
 ## Installation
 
-TODO: Write installation instructions here
+```
+crystal run src/server.cr
+or
+crystal src/server.cr
+```
 
 ## Usage
 
